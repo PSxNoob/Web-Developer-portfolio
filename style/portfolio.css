@@ -52,7 +52,15 @@ nav a{
 /*header related style*/
 .header{
     background-color: #fff8f3 ;
+    break-inside: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+
 }
 .banner{
     padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 600px;
 }
